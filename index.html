@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Anas Al-Qahtani - Oracle Forms 6i, PL/SQL and Healthcare Systems Development Portfolio" />
+  <title>Anas Al-Qahtani | Oracle Forms 6i Portfolio</title>
+  <style>
+    :root{--bg:#f6f8fb;--card:#fff;--ink:#172033;--muted:#667085;--line:#e6eaf0;--accent:#1769aa;--accent2:#0b4f82;--soft:#edf6fc;--good:#16794b;--shadow:0 18px 45px rgba(23,32,51,.08)}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Tahoma,Arial,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1180px,92%);margin:auto}.topbar{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+    .topbar .inner{height:68px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{font-weight:800}.actions{display:flex;gap:10px;align-items:center}
+    button,.btn{border:0;border-radius:10px;padding:11px 16px;font-weight:700;cursor:pointer}.lang{background:#eef2f6;color:var(--ink)}.primary{background:var(--accent);color:#fff}.secondary{background:#fff;border:1px solid var(--line)}
+    .hero{padding:64px 0 34px}.hero-grid{display:grid;grid-template-columns:1.45fr .55fr;gap:36px;align-items:center}.eyebrow{display:inline-block;background:var(--soft);color:var(--accent2);padding:6px 10px;border-radius:999px;font-size:14px;font-weight:700}
+    h1{font-size:clamp(34px,5vw,60px);line-height:1.1;margin:18px 0 14px;letter-spacing:-.5px}.lead{font-size:20px;color:var(--muted);max-width:820px}.hero-tags{display:flex;flex-wrap:wrap;gap:9px;margin:24px 0}.tag{background:#fff;border:1px solid var(--line);padding:7px 11px;border-radius:999px;font-size:14px}
+    .profile{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:18px;box-shadow:var(--shadow);text-align:center}.profile img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:18px}.profile h3{margin:14px 0 2px}.profile p{margin:0;color:var(--muted)}
+    .section{padding:38px 0}.section h2{font-size:32px;margin:0 0 10px}.section-intro{color:var(--muted);max-width:900px;margin-bottom:24px}
+    .value-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.value{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}.value b{display:block;margin-bottom:6px}.value span{color:var(--muted);font-size:14px}
+    .project{background:var(--card);border:1px solid var(--line);border-radius:22px;overflow:hidden;margin:24px 0;box-shadow:0 10px 30px rgba(23,32,51,.05)}.project-grid{display:grid;grid-template-columns:1.08fr .92fr;align-items:stretch}.project-media{background:#eef2f7;display:flex;align-items:center;justify-content:center;padding:12px}.project-media img{width:100%;height:100%;max-height:520px;object-fit:contain;border-radius:12px}.project-copy{padding:28px}.project-copy h3{font-size:26px;margin:0 0 8px}.meta{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 18px}.meta span{font-size:13px;background:var(--soft);color:var(--accent2);padding:5px 9px;border-radius:999px;font-weight:700}.project-copy ul{padding-inline-start:20px;margin-bottom:0}.project-copy li{margin:5px 0}.role{color:var(--good);font-weight:800}
+    .fit{background:linear-gradient(135deg,#0d4f83,#1769aa);color:#fff;border-radius:24px;padding:34px}.fit p{color:#e7f1f8}.fit-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:20px}.fit-item{background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.16);border-radius:14px;padding:16px}
+    footer{padding:38px 0 60px;color:var(--muted);text-align:center}.small{font-size:13px}.en{display:none} body.en-mode{direction:ltr} body.en-mode .ar{display:none} body.en-mode .en{display:block} body.en-mode .en.inline{display:inline} body:not(.en-mode) .ar.inline{display:inline}
+    .project .en,.value .en,.fit .en,.hero .en,.profile .en,.section .en{display:none} body.en-mode .project .en,body.en-mode .value .en,body.en-mode .fit .en,body.en-mode .hero .en,body.en-mode .profile .en,body.en-mode .section .en{display:block}
+    @media(max-width:900px){.hero-grid,.project-grid{grid-template-columns:1fr}.profile{max-width:420px}.value-grid{grid-template-columns:repeat(2,1fr)}.project:nth-child(even) .project-media{order:0}.fit-grid{grid-template-columns:1fr}}
+    @media(max-width:600px){.value-grid{grid-template-columns:1fr}.hero{padding-top:36px}.topbar .inner{height:auto;padding:10px 0;align-items:flex-start}.actions{flex-wrap:wrap;justify-content:flex-end}.project-copy{padding:20px}h1{font-size:38px}}
+  </style>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap inner">
+    <div class="brand">Anas Al-Qahtani</div>
+    <div class="actions">
+      <a class="btn secondary" href="https://www.linkedin.com/in/anasalqahtani/" target="_blank" rel="noopener">LinkedIn</a>
+      <button class="lang" id="langBtn" type="button">English</button>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow ar">ملف أعمال تقني في الأنظمة الصحية</span><span class="eyebrow en">Healthcare Systems Technical Portfolio</span>
+      <h1 class="ar">Oracle Forms 6i + PL/SQL<br>خبرة برمجية بفهم تشغيلي صحي</h1>
+      <h1 class="en">Oracle Forms 6i + PL/SQL<br>Development with Healthcare Workflow Insight</h1>
+      <p class="lead ar">خبرة عملية في تطوير وتحسين أنظمة طبية مبنية على Oracle Forms 6i وقواعد بيانات Oracle، وتحويل الاحتياج التشغيلي إلى أدوات وشاشات عملية، مع القدرة على بناء تكاملات وأدوات مساندة حول النظام الحالي.</p>
+      <p class="lead en">Hands-on experience developing and enhancing healthcare systems built on Oracle Forms 6i and Oracle Database, translating operational needs into practical tools and screens, with the ability to build complementary tools and integrations around the existing system.</p>
+      <div class="hero-tags">
+        <span class="tag">Oracle Forms 6i</span><span class="tag">PL/SQL</span><span class="tag">Oracle Database</span><span class="tag">Healthcare IT</span><span class="tag">Workflow Optimization</span>
+      </div>
+      <div class="actions">
+        <a class="btn primary" href="#projects"><span class="ar inline">عرض نماذج الأعمال</span><span class="en inline">View Projects</span></a>
+        <a class="btn secondary" href="https://www.linkedin.com/in/anasalqahtani/" target="_blank" rel="noopener"><span class="ar inline">حساب LinkedIn</span><span class="en inline">LinkedIn Profile</span></a>
+      </div>
+    </div>
+    <aside class="profile">
+      <img src="assets/profile.png" alt="Anas Al-Qahtani" />
+      <h3>Anas Al-Qahtani</h3>
+      <p class="ar">Healthcare IT | Oracle Forms & PL/SQL</p>
+      <p class="en">Healthcare IT | Oracle Forms & PL/SQL</p>
+    </aside>
+  </div>
+</section>
+
+<section class="section">
+<div class="wrap">
+  <h2 class="ar">ما الذي أقدمه لمنشأة تعمل على Oracle Forms 6i؟</h2>
+  <h2 class="en">What I Bring to an Organization Running Oracle Forms 6i</h2>
+  <p class="section-intro ar">القيمة الأساسية ليست في معرفة التقنية فقط، بل في الجمع بين فهم النظام الحالي، وفهم العمل الطبي، والقدرة على تطوير حلول عملية والتفاهم تقنيًا مع الشركة الموردة.</p>
+  <p class="section-intro en">The key value is not technology alone, but the combination of understanding the existing system, healthcare operations, practical development, and effective technical communication with the software vendor.</p>
+  <div class="value-grid">
+    <div class="value"><b class="ar">فهم النظام الحالي</b><b class="en">Understand the Existing System</b><span class="ar">Forms، Triggers، PL/SQL، SQL وقاعدة البيانات.</span><span class="en">Forms, triggers, PL/SQL, SQL, and database structures.</span></div>
+    <div class="value"><b class="ar">تطوير مباشر</b><b class="en">Hands-on Development</b><span class="ar">شاشات جديدة، تحسينات، تحقق من البيانات وسير عمل.</span><span class="en">New screens, enhancements, validations, and workflow logic.</span></div>
+    <div class="value"><b class="ar">التعامل مع المورد</b><b class="en">Vendor Communication</b><span class="ar">تحويل الاحتياجات التشغيلية إلى متطلبات تقنية دقيقة.</span><span class="en">Translate operational needs into precise technical requirements.</span></div>
+    <div class="value"><b class="ar">أدوات خارجية</b><b class="en">External Tools</b><span class="ar">تقارير، أدوات تشغيل وتكاملات تعتمد على Oracle DB.</span><span class="en">Reporting, utilities, and integrations built around Oracle DB.</span></div>
+  </div>
+</div>
+</section>
+
+<section class="section" id="projects">
+<div class="wrap">
+  <h2 class="ar">نماذج مختارة من الأعمال</h2><h2 class="en">Selected Development Projects</h2>
+  <p class="section-intro ar">نماذج من حلول تم تنفيذها في بيئات تشغيلية صحية حقيقية.</p><p class="section-intro en">Selected solutions implemented for real healthcare operational workflows.</p>
+
+  <article class="project"><div class="project-grid"><div class="project-media"><img src="assets/vital-signs.png" alt="Vital Signs Management" /></div><div class="project-copy">
+    <h3 class="ar">1. إدارة العلامات الحيوية</h3><h3 class="en">1. Vital Signs Management</h3>
+    <div class="meta"><span>Oracle Forms 6i</span><span>PL/SQL</span><span>Oracle Database</span></div>
+    <div class="role ar">الدور: تصميم وبرمجة كاملة</div><div class="role en">Role: Fully Designed & Developed</div>
+    <p class="ar">شاشة لفريق التمريض لإدخال الحرارة وضغط الدم والنبض ومعدل التنفس وتشبع الأكسجين، ثم ربطها بكشفية المريض لتظهر للطبيب أثناء المعاينة.</p>
+    <p class="en">A nursing workflow screen for capturing temperature, blood pressure, pulse, respiratory rate, and oxygen saturation, linked directly to the patient encounter for physician access.</p>
+    <ul class="ar"><li>تقليل التسجيل اليدوي.</li><li>ربط البيانات بالكشفية.</li><li>تحسين توفر المعلومات السريرية للطبيب.</li></ul>
+    <ul class="en"><li>Reduced manual documentation.</li><li>Linked observations to the patient encounter.</li><li>Improved availability of clinical data to physicians.</li></ul>
+  </div></div></article>
+
+  <article class="project"><div class="project-grid"><div class="project-media"><img src="assets/medical-leave.png" alt="Medical Leave Management" /></div><div class="project-copy">
+    <h3 class="ar">2. إدارة الإجازات المرضية</h3><h3 class="en">2. Medical Leave Management</h3>
+    <div class="meta"><span>Oracle Forms 6i</span><span>PL/SQL</span><span>Oracle Database</span></div>
+    <div class="role ar">الدور: تصميم وبرمجة كاملة</div><div class="role en">Role: Fully Designed & Developed</div>
+    <p class="ar">شاشة تعرض الإجازات التي تحتاج إلى إدخالها في منصة صحة، مع البحث والتصفية ومتابعة حالة السجل لضمان سرعة ودقة الإنجاز.</p>
+    <p class="en">A tracking screen for medical leave records requiring processing through the Saudi MOH Sehha Platform, with search, filtering, and status monitoring.</p>
+    <ul class="ar"><li>متابعة الحالات غير المدخلة أو غير المكتملة.</li><li>تقليل أخطاء الإدخال.</li><li>رفع كفاءة المتابعة اليومية.</li></ul>
+    <ul class="en"><li>Tracks pending and incomplete records.</li><li>Reduces data-entry errors.</li><li>Improves daily operational follow-up.</li></ul>
+  </div></div></article>
+
+  <article class="project"><div class="project-grid"><div class="project-media"><img src="assets/expat-health-license.png" alt="Expatriate Medical Examination and Health License Management" /></div><div class="project-copy">
+    <h3 class="ar">3. إدارة فحص العمالة الوافدة والرخص الصحية</h3><h3 class="en">3. Expatriate Medical Examination & Health License Management</h3>
+    <div class="meta"><span>Oracle Forms 6i</span><span>PL/SQL</span><span>Reporting</span><span>Excel Export</span></div>
+    <div class="role ar">الدور: تصميم وتطوير نظام تشغيلي للقسم</div><div class="role en">Role: Designed & Developed Operational Workflow</div>
+    <p class="ar">شاشة لتنظيم طلبات فحص العمالة والرخص الصحية ومتابعة بيانات المراجع والخدمة والمختبر والاستلام، مع التقارير والتصدير إلى Excel.</p>
+    <p class="en">An operational management screen covering expatriate medical examinations and health-license services, including patient, service, laboratory, collection, reporting, and Excel export workflows.</p>
+    <ul class="ar"><li>توحيد إجراءات القسم.</li><li>سهولة البحث والتوثيق.</li><li>دعم التقارير والمتابعة التشغيلية.</li></ul>
+    <ul class="en"><li>Centralized department workflow.</li><li>Improved search and documentation.</li><li>Supported operational reporting and follow-up.</li></ul>
+  </div></div></article>
+
+  <article class="project"><div class="project-grid"><div class="project-media"><img src="assets/billing.png" alt="Medical Examination Center Billing" /></div><div class="project-copy">
+    <h3 class="ar">4. فواتير مركز فحص العمالة والرخص الصحية</h3><h3 class="en">4. Medical Examination Center Billing</h3>
+    <div class="meta"><span>Oracle Forms 6i</span><span>PL/SQL</span><span>Billing</span><span>Printing</span></div>
+    <div class="role ar">الدور: تصميم وبرمجة كاملة</div><div class="role en">Role: Fully Designed & Developed</div>
+    <p class="ar">شاشة فوترة تربط الخدمة بالفاتورة ثم تطبع الاستمارة المناسبة تلقائيًا ببيانات المراجع والخدمة، بدل تعبئة النماذج يدويًا.</p>
+    <p class="en">A billing workflow that links services to invoicing and automatically prints the correct service form with patient and service data, replacing manual form completion.</p>
+    <ul class="ar"><li>دعم الأسعار والخصومات والضريبة وطرق الدفع.</li><li>تسريع خدمة الاستقبال.</li><li>تقليل أخطاء النماذج اليدوية.</li></ul>
+    <ul class="en"><li>Supports pricing, discounts, VAT, and payment methods.</li><li>Faster front-desk processing.</li><li>Reduced manual form errors.</li></ul>
+  </div></div></article>
+
+  <article class="project"><div class="project-grid"><div class="project-media"><img src="assets/biometric-records.png" alt="Medical Records and Biometric Verification" /></div><div class="project-copy">
+    <h3 class="ar">5. الملفات الطبية والتحقق بالبصمة</h3><h3 class="en">5. Medical Records & Biometric Verification</h3>
+    <div class="meta"><span>Oracle Forms 6i</span><span>PL/SQL</span><span>C#</span><span>Fingerprint Device</span></div>
+    <div class="role ar">الدور: تطوير وتحسين وربط تقني</div><div class="role en">Role: Enhanced & Integrated</div>
+    <p class="ar">تطوير شاشة الملفات الطبية لمنع تكرار الملفات لدى مستفيدين لا يملكون معرفًا شخصيًا ثابتًا، عبر التقاط بصمة الإصبع ومقارنتها بالسجلات السابقة. تم ربط زر البصمة بجهاز خارجي من خلال C#.</p>
+    <p class="en">Enhanced medical record management to reduce duplicate files for beneficiaries without reliable unique identifiers, using fingerprint capture and matching. The Oracle Forms workflow was integrated with a fingerprint device through C#.</p>
+    <ul class="ar"><li>منع تكرار الملفات الطبية.</li><li>تكامل Oracle Forms مع C# وجهاز Biometric.</li><li>حل مطبق فعليًا في بيئة إنتاجية منذ نحو عامين.</li></ul>
+    <ul class="en"><li>Reduced duplicate medical records.</li><li>Integrated Oracle Forms with C# and biometric hardware.</li><li>Production solution in real use for approximately two years.</li></ul>
+  </div></div></article>
+</div>
+</section>
+
+<section class="section"><div class="wrap fit">
+  <h2 class="ar">لماذا هذه الخبرة مناسبة لمنشأة لديها Oracle Forms 6i؟</h2><h2 class="en">Why This Experience Fits an Oracle Forms 6i Healthcare Environment</h2>
+  <p class="ar">أستطيع العمل كحلقة وصل عملية بين المستخدمين وإدارة تقنية المعلومات والنظام وقاعدة البيانات والشركة الموردة، مع القدرة على تحسين الموجود وبناء أدوات مساندة حوله بدل الاعتماد الكامل على التعديلات الخارجية.</p>
+  <p class="en">I can operate as a practical bridge between end users, IT, the Oracle system and database, and the software vendor—enhancing the existing environment and building complementary tools around it.</p>
+  <div class="fit-grid">
+    <div class="fit-item"><b class="ar">فهم تقني وتشغيلي</b><b class="en">Technical + Operational Understanding</b><div class="ar">فهم Forms وPL/SQL مع معرفة سير العمل الطبي والإداري.</div><div class="en">Forms and PL/SQL knowledge combined with healthcare workflow understanding.</div></div>
+    <div class="fit-item"><b class="ar">تقليل الاعتماد على المورد</b><b class="en">Reduce Unnecessary Vendor Dependency</b><div class="ar">معالجة التحسينات التشغيلية اليومية داخليًا متى كان ذلك مناسبًا.</div><div class="en">Handle suitable day-to-day operational enhancements internally.</div></div>
+    <div class="fit-item"><b class="ar">تطوير أدوات مساندة</b><b class="en">Build Complementary Tools</b><div class="ar">تقارير، لوحات، تكاملات وأدوات تعتمد على Oracle Database.</div><div class="en">Reporting, dashboards, integrations, and Oracle Database utilities.</div></div>
+    <div class="fit-item"><b class="ar">تواصل أفضل مع الشركة الموردة</b><b class="en">Stronger Vendor Communication</b><div class="ar">صياغة المتطلبات والمشكلات بلغة تقنية دقيقة وواضحة.</div><div class="en">Express requirements and defects in precise technical language.</div></div>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <strong>Anas Al-Qahtani</strong><br />
+  Healthcare IT | Oracle Forms 6i | PL/SQL | Oracle Database<br />
+  <a href="https://www.linkedin.com/in/anasalqahtani/" target="_blank" rel="noopener">linkedin.com/in/anasalqahtani</a>
+  <div class="small ar">تم عرض بيانات المرضى في الصور بعد إخفاء المعلومات التعريفية الحساسة.</div>
+  <div class="small en">Patient-identifying information shown in screenshots has been masked.</div>
+</div></footer>
+
+<script>
+  const btn=document.getElementById('langBtn');
+  const body=document.body;
+  function setLang(lang){
+    const en=lang==='en'; body.classList.toggle('en-mode',en);
+    document.documentElement.lang=en?'en':'ar'; document.documentElement.dir=en?'ltr':'rtl';
+    btn.textContent=en?'العربية':'English'; localStorage.setItem('portfolioLang',lang);
+  }
+  btn.addEventListener('click',()=>setLang(body.classList.contains('en-mode')?'ar':'en'));
+  setLang(localStorage.getItem('portfolioLang')||'ar');
+</script>
+</body>
+</html>
